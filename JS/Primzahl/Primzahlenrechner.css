@@ -1,0 +1,53 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.popup {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 50px;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+    transition: all 0.7s ease;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Navbar */
+.logo-svg-nav {
+    background-image: url('../../HTML/images/Brischi\ Logo\ \ jpg.jpg');  
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;             
+    background-position: center;        
+    background-repeat: no-repeat;  
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-right ul {
+    list-style-type: none;  
+    padding: 10px;
+    margin: 0;
+    display: flex;             
+    gap: 15px;  
+    background: white;
+  
+    font-weight: bold;  
+    font-size: 25px;
+    border-radius: 18px;              
+    font-family: 'CaviarDreams_Bold', Tahoma, Verdana, sans-serif;
+    align-items: center;  
+    position: fixed;       /* Fixiert die Navbar am Bildschirm */
+    top: 0;                /* Befestigt sie oben */
+    left: 0;
+    right: 0;               /* Setzt sie am linken Rand an */
+    z-index: 1000;         /* Stellt sicher, dass sie über dem Inhalt bleibt */
+}

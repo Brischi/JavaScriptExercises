@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="Primzahlenrechner.js"></script>
+    <link rel="stylesheet" href="Primzahlenrechner.css">
+    
+</head>
+<body>
+    <div class="div_html_seite">
+
+    </div>
+    <header id="Anfang">
+        <nav class="navbar-right">
+            <ul>
+                <div class="logo-svg-nav"></div>
+                <li>
+                    <a class="a_navbar" href="../index.html">home</a>
+                </li>
+            </ul>
+        </nav>
+       
+    </header>
+
+    <section>
+        <div>
+            <h1>Nachricht, die wieder entfernt werden kann:</h1><br>
+            <h2></h2><br>
+            <input type="button" value="Klick mich" onclick="toggleNachricht();" /><br><br>
+            <br><div class="popup" id="nachricht"></div> <!-- Der div-Bereich, in dem die Nachricht angezeigt wird --> 
+        </div><br><br><br>
+        <div>
+            <h1>Primzahl-Kontrolle:</h1>
+        <input type="number" id="zahlEingabe" placeholder="Zahl eingeben" />
+        <input type="button" value="Prüfen" onclick="speichereZahl()" />
+
+        <div id="ergebnis"></div><br><br>
+
+        <input type="button" id="primzahlenbishundert" onclick="primzahlenbishundert()" value="zeige alle Primzahlen bis Hundert">
+        <div id="primzahlenListe"></div>
+
+    </section>
+ </div>
+</body>
+</html>

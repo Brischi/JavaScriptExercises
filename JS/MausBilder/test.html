@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Memes</title>
+</head>
+<body>
+    <nav class="navbar-right">
+        <ul>
+            <div class="logo-svg-nav"></div>
+    
+            <li>
+                <a class="a_navbar" href="../index.html">home</a>
+            </li>
+        </ul>
+    </nav>
+    <div style="text-align: center;">
+        <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: blueviolet">Meme-Show</h1>
+        <img src="Mapping.jpg" id="testtest" width="1000" height="500" alt="Server und Netzwerkdiagramm" usemap="#imagemap2">
+        <map name="imagemap2">
+            <!-- Bereich 1 -->
+            <area shape="rect" coords="0,0,500,250" alt="Bereich 1" 
+                  onmouseover="bildändern('bla1.jpg')" onmouseout="resetBild()">
+            <!-- Bereich 2 -->
+            <area shape="rect" coords="500,0,1000,250" alt="Bereich 2" 
+                  onmouseover="bildändern('bla2.jpg')" onmouseout="resetBild()">
+            <!-- Bereich 3 -->
+            <area shape="rect" coords="0,250,500,500" alt="Bereich 3" 
+                  onmouseover="bildändern('bla3.jpg')" onmouseout="resetBild()">
+            <!-- Bereich 4 -->
+            <area shape="rect" coords="500,250,1000,500" alt="Bereich 4" 
+                  onmouseover="bildändern('bla4.jpg')" onmouseout="resetBild()">
+        </map>
+    </div>
+</body>
+<script type="text/javascript" src="test.js"></script>
+</html>
